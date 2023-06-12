@@ -134,76 +134,76 @@ header.inverted a {
 }
 @keyframes animation{
     0%{
-        background-image: url('../images/image_1.jpeg');
+        background-image: url('../images/image_1.JPG');
         width: 100%;
         
     }
     10%{
-        background-image: url('../images/image_1.jpeg');
+        background-image: url('../images/image_1.JPG');
         width: 100%;
     }
     10.01%{
-        background-image: url('../images/image_2.jpeg');
+        background-image: url('../images/image_2.JPG');
         width: 100%;
     }
     20%{
-        background-image: url('../images/image_2.jpeg');
+        background-image: url('../images/image_2.JPG');
         width: 100%;
     }
     20.01%{
-        background-image: url('../images/image_3.jpeg');
+        background-image: url('../images/image_3.JPG');
         width: 100%;
     }
     30%{
-        background-image: url('../images/image_3.jpeg');
+        background-image: url('../images/image_3.JPG');
         width: 100%;
     }
     30.01%{
-        background-image: url('../images/image_4.jpeg');
+        background-image: url('../images/image_4.JPG');
         width: 100%;
     }
     40%{
-        background-image: url('../images/image_4.jpeg');
+        background-image: url('../images/image_4.JPG');
         width: 100%;
     }
     40.01%{
-        background-image: url('../images/image_5.jpeg');
+        background-image: url('../images/image_5.JPG');
         width: 100%;
     }
     50%{
-        background-image: url('../images/image_5.jpeg');
+        background-image: url('../images/image_5.JPG');
         width: 100%;
     }
     50.01%{
-        background-image: url('../images/image_6.jpeg');
+        background-image: url('../images/image_6.JPG');
         width: 100%;
     }
     60%{
-        background-image: url('../images/image_6.jpeg');
+        background-image: url('../images/image_6.JPG');
         width: 100%;
     }
     60.01%{
-        background-image: url('../images/image_7.jpeg');
+        background-image: url('../images/image_7.JPG');
         width: 100%;
     }
     70%{
-        background-image: url('../images/image_7.jpeg');
+        background-image: url('../images/image_7.JPG');
         width: 100%;
     }
     70.01%{
-        background-image: url('../images/image_8.jpeg');
+        background-image: url('../images/image_8.JPG');
         width: 100%;
     }
     80%{
-        background-image: url('../images/image_8.jpeg');
+        background-image: url('../images/image_8.JPG');
         width: 100%;
     }
     80.01%{
-        background-image: url('../images/image_9.jpeg');
+        background-image: url('../images/image_9.JPG');
         width: 100%;
     }
     90%{
-        background-image: url('../images/image_9.jpeg');
+        background-image: url('../images/image_9.JPG');
         width: 100%;
     }
     90.01%{
