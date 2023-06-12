@@ -501,6 +501,7 @@ input{
     width: 350px;
     padding: 15px;
     cursor: pointer;
+    -webkit-appearance: none;
 }
 input:hover{
     opacity: 95%;
