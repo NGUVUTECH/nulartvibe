@@ -1,0 +1,284 @@
+@font-face {
+    font-family: 'SulphurPoint-Bold';
+    src: url('../font_family/SulphurPoint-Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'SulphurPoint-Light';
+    src: url('../font_family/SulphurPoint-Light.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Charmonman-Bold';
+    src: url('../font_family/Charmonman-Bold.ttf') format('truetype');
+}
+body{
+    margin: auto;
+    font-family: 'SulphurPoint-Bold';
+    font-size: 16px;
+    color: #090600;
+}
+header{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background-color: white;
+    z-index: 10;
+    margin: auto;
+    margin-top: auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-content: center;
+    gap: 0px;
+    transition: 1s;
+    flex-direction: row;
+    box-shadow: 0 2px 5px 0.5px rgba(0,0,0,0.1);
+}
+.medialinknews{
+    display: none;
+}
+.Logo{
+    margin: auto;
+    width: 100px;
+    margin-left: 50px;
+    object-fit: cover; 
+}
+.liste_header{
+    position: relative;
+    cursor: pointer; 
+    width: fit-content;
+}
+.liste{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 10px 80px;
+    font-family: 'SulphurPoint-Bold';
+    gap: 80px;
+    font-weight: bolder;
+}
+.liste1{
+    border-bottom: 4px solid #f1bc40;
+    padding: 20px;
+}
+.liste li a{
+    text-decoration: none;
+    color: black;
+    margin-top: 20px;
+}
+.liste li a:hover{
+    color: #C79F43;
+    transition: 1s;
+}
+.news{
+    border-bottom: 2px solid #C79F43;
+}
+.lien{
+    display: none;
+}
+.menu{
+    width: 30px;
+}
+.checkbtn{
+    position: absolute;
+    font-size: 30px;
+    color: white;
+    right: 0;
+    line-height: 0px;
+    margin-right: 20px;
+    cursor: pointer;
+    display: none;
+    margin-top: 15px;
+  }
+#check{
+    display: none;
+}
+
+header.inverted {
+    background: white;
+    box-shadow: 0 2px 5px 0.5px rgba(0,0,0,0.1);
+    position: fixed;
+    top: 0px;
+    transition: 1s;
+}
+header.inverted a {
+    color: #333; 
+}
+/* ******************* */
+section{
+    text-align: center;
+    margin-top: 130px;
+}
+aside{
+    margin: auto;
+    width: 480px;
+    border-top: 1px solid #dadada;
+}
+aside p{
+    font-family: 'Charmonman-Bold';
+}
+aside p img{
+    width: 480px;
+}
+strong{
+    font-family: 'SulphurPoint-Bold';
+    text-decoration: underline;
+    color: #C79F43;
+}
+/* ********************** */
+footer{
+    background-color: black;
+}
+footer a{
+    text-decoration: none;
+}
+footer .logogolden{
+    width: 150px;
+   
+    margin-left: 50px;
+}
+.contenu-footer{
+    display: flex;
+    gap: 200px;
+}
+.contenu-footer1{
+    display: flex;
+}
+.paragraphe26{
+    color: white;
+    font-size: 18px;
+}
+.paragraphe26 span{
+    font-family: 'SulphurPoint-Light';
+    border-bottom: 1px solid white;
+    color: white;
+}
+.paragraphe26 span:hover{
+    color: #C79F43;
+    transition: 1s;
+    border-bottom: 1px solid #C79F43;
+}
+.paragraphe26 .logosociaux{
+    width: 20px;
+    margin-right: 30px;
+}
+.paragraphe26 a:hover{
+    opacity: 60%;
+    transition: 1s;
+}
+.paragraphe27{
+    font-family: 'SulphurPoint-Light';
+    color: white;
+    margin-bottom: 0px;
+    padding-bottom: 50px;
+    margin-left: 10px;
+}
+.anca{
+    color: white;
+}
+.anca:hover{
+    color: #C79F43;
+    transition: 1s;
+}
+/* ********************* */
+@media only screen and (max-width: 1000px){
+    .contenu-footer{
+        gap: 150px;
+    }
+}
+@media only screen and (max-width: 900px){
+    .contenu-footer{
+        gap: 100px;
+    }
+}
+@media only screen and (max-width: 800px){
+    .contenu-footer{
+        gap: 50px;
+    }
+}
+@media only screen and (max-width: 700px){
+    .contenu-footer{
+        gap: 20px;
+    }
+}
+@media only screen and (max-width: 676px){
+    .contacts{
+        display: none;
+    }
+    .news{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 640px){
+    .contenu-footer{
+        display: grid;
+    }
+    footer{
+        margin: auto;
+    }
+    .contenu-footer{
+        width: fit-content;
+        margin: auto;
+    }
+    footer .logogolden{
+        margin-left: auto;
+    }
+    .paragraphe27{
+        border-top: 1px solid rgb(78, 78, 78);
+        text-align: center;
+        margin-left: initial;
+    }
+}
+@media only screen and (max-width: 630px){
+    nav .contacts{
+        display: none;
+    }
+}
+@media only screen and (max-width: 500px){
+    aside{
+        width: 330px;
+    }
+    aside p img{
+        width: 330px;
+    }
+}
+/* @media only screen and (max-width: 425px){
+    header .Logo{
+        margin-left: 5px;
+    }
+}  */
+@media only screen and (max-width: 417px){
+    header .Logo{
+       width: 80px;
+    }
+    .liste{
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        margin: 10px 40px;
+        font-family: 'SulphurPoint-Bold';
+        gap: 80px;
+        font-weight: bolder;
+    }
+}
+@media only screen and (max-width: 375px){
+    nav .news{
+        display: none;
+    }
+    aside{
+        width: 250px;
+    }
+    aside p img{
+        width: 250px;
+    }
+}
+
+        /***************************************************/
+       /***************************************************/
+      /******************Alright_NGUVUTECH_2023***********/
+     /********************DEVELOPPERS********************/
+    /**********************WEB_DESIGN*******************/
+   /**************************************/
+  /**************************ANICET_CHIZA*************/
+ /***************************************************/
+/***************************************************/
